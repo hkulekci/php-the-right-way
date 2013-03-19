@@ -1,10 +1,10 @@
 # Hoşgeldiniz
 
-İnternet üzerinde PHP ile ilgili geçerliliğini yitirmiş çok fazla bilgi bulunmaktadır. Bu da PHP ile yeni tanışanların günümüzde kullanılmayan ve benimsenmeyen yaklaşımları ve deneyimleri izlemesine, kötü yazımış kodların üretilmesine neden olmakta. Buna artık bir son verilmeli. _PHP: Usulüne Uygun (PHP: The Right Way)_, PHP hakkında kolay anlaşılır, güncel ve pratik bilgiler, kabul görmüş kodlama standartları hakkında bilgiler ve internet üzerinde güvenilir eğitici web sitelerine bağlantılar içermektedir.
+İnternet üzerinde PHP ile ilgili geçerliliğini yitirmiş çok fazla bilgi bulunmaktadır. Bu da PHP ile yeni tanışanların günümüzde kullanılmayan, benimsenmeyen yaklaşımları ve deneyimleri izlemesine, kötü yazımış kodların üretilmesine neden olmakta. Buna artık bir son verilmeli. _PHP: Usulüne Uygun (PHP: The Right Way)_, PHP hakkında kolay anlaşılır, güncel ve pratik bilgiler, kabul görmüş kodlama standartları hakkında bilgiler ve internet üzerinde güvenilir eğitici web sitelerine bağlantılar içermektedir.
 
 ## Çeviri
 
-_PHP: Usulüne Uygun_ bir çok dilde çevirisi bulunmaktadır:
+_PHP: Usulüne Uygun_ birçok dilde çevirisi bulunmaktadır:
 
 * [English](http://www.phptherightway.com)
 * [Chinese](http://wulijun.github.com/php-the-right-way)
@@ -19,7 +19,7 @@ _PHP: Usulüne Uygun_ bir çok dilde çevirisi bulunmaktadır:
 
 ## Feragatname
 
-_PHP'yi kullanmanın bir kuralsal kesin bir yolu yoktur_. Ama, bu site uygun özellikleri ve yararlı bilgileri içeren en iyi kullanım yöntemini göstermeye çalışmaktadır. Bu site yeni kullanıcılar için bir başlangıç ve tecrübeli kişiler için fikirlerini tazeleme ortamıdır.
+_PHP'yi kullanmanın kuralsal, kesin bir yolu yoktur_. Fakat bu site uygun özellikleri ve yararlı bilgileri içeren en iyi kullanım yöntemini göstermeye çalışmaktadır. Bu site yeni kullanıcılar için bir başlangıç ve tecrübeli kişiler için fikirlerini tazeleme ortamıdır.
 
 Bu site, daha yararlı olmak için devamlı güncellenecek bir belgedir.
 
@@ -27,7 +27,7 @@ Bu site, daha yararlı olmak için devamlı güncellenecek bir belgedir.
 
 Bu sitenin yeni kullanıcılar için yararlı olmasına yardımcı olun! [GitHub Üzerinden Katkıda Bulunun][1]
 
-## Banner
+## Afişler
 
 _PHP: Usulüne Uygun_'un sitenize yerleştirmek için afişleri var. Bunları sitenize yerleştirerek desteğinizi gösterin, 
 ve yeni kullanıcıların doğru bilgiye ulaşmasını sağlayın.
