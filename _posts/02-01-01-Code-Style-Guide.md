@@ -2,17 +2,13 @@
 title: Kodlama Stili Rehberi
 ---
 
-# Kodlama Stili Rehberi  {#kodlama_stili_rehberi_title}
+# Kodlama Stili Rehberi {#kodlama_stili_rehberi_title}
 
-PHP topluluğu geniş ve çeşitlidir, sayısız kütüphane, framework ve bileşenlerden oluşur. Bunlardan birkaçını seçip bir 
-projede kullanmak bir PHP geliştiricisi için normaldir. PHP kodunda genel bir stile uymak farklı ve çeşitli 
-kütüphaneleri kullanmak ve karşılaştırmak açısından geliştiriciler için önemlidir. PHP kodunun genel kod stiline 
-olabildiğince uyması gerekiyor ki geliştiriciler kolaylıkla farklı kütüphaneleri karıştırıp eşleştirebilsinler.
+PHP topluluğu geniş ve çeşitlidir, sayısız kütüphane, framework ve bileşenlerden oluşur. Bunlardan birkaçını seçip herhangi bir projede kullanmak PHP geliştiricileri için doğaldır. PHP kodlarında genel bir stile uymak, farklı ve çeşitli kütüphaneleri kullanmak ve karşılaştırmak açısından geliştiriciler için önemlidir. PHP kodunun genel kod stiline olabildiğince uyması gerekiyor ki geliştiriciler kolaylıkla farklı kütüphaneleri karıştırıp eşleştirebilsinler.
 
-[Framework Interop Group][fig] (daha önce 'PHP Standards Group' olarak bilinen) çeşitli kodlama standartları önerilerinde bulunmuş ve [PSR-0][psr0], [PSR-1][psr1] ve [PSR-2][psr2] olarak bilinen standartları kabul etmiştir. Kabul edilmiş olan bu standartlar Drupal, Zend, Symfony, CakePHP, phpBB, AWS SDK, FuelPHP, Lithium gibi büyük projelerde kullanılmaya başlanmıştır. Bunları kendi projelerinizde kullanabilirsiniz veya kendi kodlama stilinizi ve standartlarınız ile devam edebilirsiniz.
+[Framework Interop Group][fig] (daha önce 'PHP Standards Group' olarak bilinen) çeşitli kodlama standartları önerilerinde bulunmuş ve [PSR-0][psr0], [PSR-1][psr1] ve [PSR-2][psr2] olarak bilinen standartları kabul etmiştir. Kabul edilmiş olan bu standartlar Drupal, Zend, Symfony, CakePHP, phpBB, AWS SDK, FuelPHP ve Lithium gibi büyük projelerde kullanılmaya başlanmıştır. Bunları kendi projelerinizde kullanabilirsiniz veya kendi kodlama stilinizi ve standartlarınız ile devam edebilirsiniz.
 
-Diğer geliştiricilerin daha kolay okuyup ve üzerinden çalışabilmesi için siz bu standartlardan bir veya daha fazlasına 
-uygun kod yazmalısınız, bunlar PSR'nin standartları ya da PEAR veya Zend'in standartları olabilir. Üçüncü parti kodlarla çalışırken bir çok bileşenden oluşan uygulamalar birbiri ile daha uyumlu olabilir. İlk öneri önceki önerileri içerecek şekilde tasarlanmıştır. 
+Diğer geliştiricilerin yazdığınız kodu daha kolay okuyup anlamaları ve üzerinden çalışabilmeleri için bu standartlardan bir veya daha fazlasına uygun kod yazmalısınız, bunlar PSR'nin standartları ya da PEAR veya Zend'in standartları olabilir. Üçüncü partiler tarafından hazırlanmış kodlarla çalışırken birçok bileşenden oluşan uygulamalar birbiri ile daha uyumlu olabilir.
 
 * [PSR-0 hakkında][psr0]
 * [PSR-1 hakkında][psr1]
