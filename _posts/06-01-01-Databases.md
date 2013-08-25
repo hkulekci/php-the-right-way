@@ -24,7 +24,7 @@ Bir sorguya sayısal bir ID değeri ekleyelim ve veritabanından bir kullanıcı
 {% highlight php %}
 <?php
 $pdo = new PDO('sqlite:users.db');
-$pdo->query("SELECT name FROM users WHERE id = " . $_GET['id']); // <-- NO!
+$pdo->query("SELECT name FROM users WHERE id = " . $_GET['id']); // <-- Saldırıya açık bir sorgu!
 {% endhighlight %}
 
 Yukarıdaki kötü bir koddur. Kolaylıkla farkedilebilir ve kullanılabilir bir koddur. Kötü niyetli bir kişi `id` parametresinde sayı 
@@ -35,11 +35,11 @@ atayacaktır ve bütün kullanıcılarınızı silecektir. Siz bunu PDO bağlı 
 <?php
 $pdo = new PDO('sqlite:users.db');
 $stmt = $pdo->prepare('SELECT name FROM users WHERE id = :id');
-$stmt->bindParam(':id', $_GET['id'], PDO::PARAM_INT); //<-- Automatically sanitized by PDO
+$stmt->bindParam(':id', $_GET['id'], PDO::PARAM_INT); //<-- PDO tarafından sterilize edildi
 $stmt->execute();
 {% endhighlight %}
 
-Bu doğru bir koddur. Bu bir PDO deyiminde bağlı parametreleri kullanıyor ve yabancı irdilerden gelecek zararları engelliyor. 
+Bu doğru bir koddur. Bu bir PDO deyiminde bağlı parametreleri kullanıyor ve yabancı girdilerden gelecek zararları engelliyor. 
 
 * [PDO hakkında][1]
 

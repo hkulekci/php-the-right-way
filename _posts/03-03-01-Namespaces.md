@@ -5,7 +5,7 @@ isChild: true
 
 ## İsim Uzayları (Namespaces) {#isim_uzaylari_namespaces_title}
 
-Daha öncede bahsedildiği üzere, PHP topluluğu bir sürü geliştiriciden oluşmaktadır. Bu nedenle bazı durumlarda bir kaç farklı kütüphane aynı isimde kullanılmış olabiliyor. İki kütüphane aynı isim uzayında olduğunda çakışırlar ve bu soruna neden olur.
+Daha öncede bahsedildiği üzere, PHP topluluğu bir sürü geliştiriciden oluşmaktadır. Bu nedenle bazı durumlarda bir kaç farklı kütüphane aynı isimde kullanılmış olabilir. İki kütüphane aynı isim uzayında olduğunda çakışırlar ve bu da soruna neden olur.
 
 _İsim uzayları_ bu sorunu çözer. PHP referans kılavuzunda da açıklandığı gibi, isim uzayları işletim sistemlerindeki klasörler ile karşılaştırılabilir; aynı isimdeki iki dosya fakrlı dizinlerde bulunabilir. Aynı şekilde, aynı isimdeki iki sınıf farklı isim uzaylarında bulunabilir. Bu kadar basit. 
 

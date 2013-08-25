@@ -16,7 +16,7 @@ Diğer geliştiricilerin yazdığınız kodu daha kolay okuyup anlamaları ve ü
 * ["PEAR Coding Standards" hakkında][pear-cs]
 * ["Zend Coding Standards" hakkında][zend-cs] 
 
-[PHP_CodeSniffer][phpcs] kullanarak yazdığınız kodları bu standartlardan herhangi birine karşı kodunuzu kontrole etmek için kullanabilirsiniz [Sublime Text 2][st-cs] gibi bir editör eklentisi ile gerçek zamanlı geribildirimler alabilirsiniz.
+[PHP_CodeSniffer][phpcs] kullanarak yazdığınız kodları bu standartlardan herhangi birine karşı kodunuzu kontrol etmek için kullanabilirsiniz [Sublime Text 2][st-cs] gibi bir editör eklentisi ile gerçek zamanlı geribildirimler alabilirsiniz.
 Fabien Potencier tarafından hazırlanan [PHP Coding Standards Fixer][phpcsfixer] uygulamasını kullanarak kodlarınızın bu standartlara uygun olarak otomatik düzeltilmesini sağlayabilirsiniz.
 
 İngilizce dili kod içinde bulunan değişken, sabit, fonksiyon, yordam gibi semboller ve yapılara ait isimlendirmelerde tercih edilir. Yorumlar için ise şu anda ve gelecekte kodlar üzerinde uğraşacak kişilerin anlayabileceği bir dil tercih edilebilir (Örneğin; proje ekibinde yabancı veya Türkçe bilmeyen bir eleman varsa Türkçe yerine İngilizce tercih etmeniz daha uygun olur).

@@ -37,7 +37,7 @@ Burada "/", "../", [null bytes][6], veya diğer karakterleri girdiden gelen dosy
 
 ### Sterilize Etmek (Sanitization)
 
-Sterilize etmek kural dışı ve güvenli olmayan karakterlerin yabancı irdilerden silinmesi demektir.
+Sterilize etmek kural dışı ve güvenli olmayan karakterlerin yabancı girdilerden silinmesi demektir.
 
 Örneğin, yabancı girdileri HTML içerisine ya da SQL sorgusuna göndermeden önce sterilize etmelisiniz. 
 Eğer parametreleri gönderirken [PDO](#veritabanlari) kullanırsanız, o sizin için girdileri sterilize edecektir. 

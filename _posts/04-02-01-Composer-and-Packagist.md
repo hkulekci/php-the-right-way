@@ -57,9 +57,9 @@ require 'vendor/autoload.php';
 
 Şimdi projenize eklediğiniz kütüphaneleri kullanabilirsiniz ve bunlar projenizde talep dahilinde otomatik yükleniyor (autoloaded) olacak.
 
-### Updating your dependencies
+### Bağımlılıkları Güncellemek
 
-Composer creates a file called `composer.lock` which stores the exact version of each package it downloaded when you first ran `php composer.phar install`. If you share your project with other coders and the `composer.lock` file is part of your distribution, when they run `php composer.phar install` they'll get the same versions as you. To update your dependencies, run `php composer.phar update`.
+Composer, `php composer.phar install` komutunu ilk çalıştırdığınızda `composer.lock` adında bir dosya oluşturur ve bu dosyada her paketin o anki versiyonunu tutar. Projenizi başka geliştiricilerle paylaştığınızda, `composer.lock` dosyanızı da paylaşırsanız, geliştiriciler `php composer.phar install` komutunu uyguladıklarında sizinle aynı versiyondaki paketlere sahip olurlar. Bağımlılıkları (Dependencies) güncellemek için, `php composer.phar update` komutunu çalıştırabilirsiniz.
 
 This is most useful when you define your version requirements flexibly. For instance a version requirement of ~1.8  means "anything newer than 1.8.0, but less than 2.0.x-dev". You can also use the `*` wildcard as in `1.8.*`. Now Composer's `php composer.phar update` command will upgrade all your dependencies to the newest version that fits the restrictions you define.
 
@@ -67,7 +67,7 @@ This is most useful when you define your version requirements flexibly. For inst
 
 The [Security Advisories Checker][3] is a web service and a command-line tool, both will examine your `composer.lock` file and tell you if you need to update any of your dependencies.
 
-* [Learn about Composer][4] 
+* [Learn about Composer][4]
 
 
 [1]: http://packagist.org/

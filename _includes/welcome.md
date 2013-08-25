@@ -1,6 +1,6 @@
 # Hoşgeldiniz
 
-İnternet üzerinde PHP ile ilgili geçerliliğini yitirmiş çok fazla bilgi bulunmaktadır. Bu da PHP ile yeni tanışanların günümüzde kullanılmayan, benimsenmeyen yaklaşımları ve deneyimleri izlemesine, kötü yazımış kodların üretilmesine neden olmakta. Buna artık bir son verilmeli. _PHP: Usulüne Uygun (PHP: The Right Way)_, PHP hakkında kolay anlaşılır, güncel ve pratik bilgiler, kabul görmüş kodlama standartları hakkında bilgiler ve internet üzerinde güvenilir eğitici web sitelerine bağlantılar içermektedir.
+İnternet üzerinde PHP ile ilgili geçerliliğini yitirmiş çok fazla bilgi bulunmakta. Bu da PHP ile yeni tanışanların günümüzde kullanılmayan, benimsenmeyen yaklaşımları ve deneyimleri izlemesine, kötü yazımış kodların üretilmesine neden olmakta. Buna artık bir son verilmeli. _PHP: Usulüne Uygun (PHP: The Right Way)_, PHP hakkında kolay anlaşılır, güncel ve pratik bilgiler, kabul görmüş kodlama standartları hakkında bilgiler ve internet üzerinde güvenilir eğitici web sitelerine bağlantılar içermektedir.
 
 ## Çeviri
 

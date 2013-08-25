@@ -17,15 +17,15 @@ _PHP: The Right Way_ sitenizde tanıtmak için bir banner'ı vardır. Bu konuda 
 
 ## Nasıl Katkıda Bulunabilirim 
 
-1. Fork edin ve Düzenleyin.
+1. Fork edin ve düzenleyin.
 2. İsterseniz [Jekyll](https://github.com/mojombo/jekyll/) ile [Ruby](https://rvm.io/rvm/install/) üzerinden kendi bilgisayarınızda görüntüleyebilirsiniz. 
 3. Değerlendirilmesi için "Pull Request" isteği gönderin.
 
 ### Katılımcı Rehberi
 
-1. Use American English spelling (*primary English repo only*)
+1. Use American English spelling (*sadece İngilizce repo için*)
 2. Tab karakteri yerine 4 karakter boşluk kullanın.
-3. Wrap all text to 120 characters.
+3. Tüm yazıyı 120 karaktere sarmaya çalışın.
 4. Kod örnekleri için [PSR-1](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md) veya daha büyük standartlara bağlı kalın.
 
 ## Linkler
@@ -50,7 +50,7 @@ _PHP: The Right Way_ sitenizde tanıtmak için bir banner'ı vardır. Bu konuda 
 
 Eğer _PHP: The Right Way_'i çevirmek istiyorsanız, repo'yu fork edin ve kendi github hesabınızdan yayınlayın. Ana dökümandan çevirinize bağlantı vereceğiz. 
 
-Patçalanmaları ve okuyucu karışıklığını önlemek için lütfen birini seçin :
+Parçalanmaları ve okuyucu karışıklığını önlemek için lütfen birini seçin :
 
 1. Github sayfanıza bağlantı vermek `[username].github.com/php-the-right-way`
 2. Github sayfanıza subdomain ile bağlantı vermek (e.g. "ru.phptherightway.com")
@@ -61,7 +61,7 @@ Eğer bir subdomain kullanıyorsanız `CNAME` dosyasına domain bilgilerinizi gi
 
 ## Niçin
 
-Son zamanlarda PHP topluluğunun yetersizliği hakkında bir çok tartışma oldu, PHP Programlamada yeniler için inandırıcı bilgi. Bu repo bu problemi çözemyi hedeflemektedir.
+Son zamanlarda PHP topluluğunun yetersizliği hakkında bir çok tartışma oldu. Bu repo bu problemi çözmeyi hedeflemektedir.
 
 ## Kim
 
