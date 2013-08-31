@@ -8,33 +8,33 @@ isChild: true
 Eğer dosyalarınızı güncellemeden önce kendinizi elle (manually) veritabanı şemasını güncellerken veya 
 testlerinizi elle (manually) çalıştırıyor buluyorsanız, iki kere düşünün! 
 
-With every additional manual task needed to deploy a new version of your app, the chances for 
-potentially fatal mistakes increase. Whether you're dealing with a simple update, a comprehensive build process or 
-even a continuous integration strategy, [build automation](http://en.wikipedia.org/wiki/Build_automation) is your 
-friend.
+Uygulamanızın yeni versiyonunu deploy etmek için elle (manually) yapmanız gerekecek her ekstra işlem ile büyük hatalar
+yapma ihtimaliniz artacaktır. İster basit bir güncellemeyle uğraşırken, ister kapsamlı bir yapı kuruyorken ve hatta sürekli
+entegrasyon stratejisiyle uğraşıyorken [build otomasyonu](http://en.wikipedia.org/wiki/Build_automation) arkadaşınızdır.
 
-Among the tasks you might want to automate are:
+Otomatikleştirmek isteyeceğiniz bazı işlemler:
 
-* Dependency management
-* Compilation, minification of your assets
-* Running tests
-* Creation of documentation
-* Packaging
+* Bağımlılık yönetimi
+* Dosyalarınızın (assets) derleme, sıkıştırma (minification) işlemleri
+* Test çalıştırma
+* Dökümantasyon oluşturma
+* Paketleme
 * Deployment
 
 
-### Build Automation Tools
+### Otomasyon Araçlarını Hazırlamak
 
-Build tools can be described as a collection of scripts that handle common tasks of software deployment. The build 
-tool is not a part of your software, it acts on your software from 'outside'.
+Otomasyon araçları, yazılım deployment larının yaygın görevlerini idare eden betik koleksiyonu olarak tanımlanabilir.
+Build araçları yazılımınızın bir parçası değildir, sadece yazılımınızla dışarıdan çalışır.
 
-There are many open source tools available to help you with build automation, some are written in PHP others aren't. 
-This shouldn't hold you back from using them, if they're better suited for the specific job. Here are a few examples:
+Bazıları PHP, bazıları farklı dillerde olmak üzere build otomasyonunda size yardımcı olabilecek bir çok açık kaynak 
+araç bulunmaktadır. Eğer belirli bir iş için daha uygunlarsa PHP ile yazılmış olmamaları sizi durdurmasın.
+İşte bir kaç örnek:
 
-[Phing](http://www.phing.info/) is the easiest way to get started with automated deployment in the PHP world. With 
-Phing you can control your packaging, deployment or testing process from within a simple XML build file. Phing (which 
-is based on [Apache Ant](http://ant.apache.org/)) provides a rich set of tasks usually needed to install or update a 
-web app and can be extended with additional custom tasks, written in PHP.
+[Phing](http://www.phing.info/) PHP dünyasında otomatik deployment a başlamak için en kolay yoldur. Phing ile basit 
+bir XML dosyasından paketleme, deployment ve ya test işlemlerini kontrol edebilirsiniz. Phing ([Apache Ant](http://ant.apache.org/) 
+tabanlıdır) bir web apliasyonunu yüklemek ve ya güncellemek için genellikle ihtiyaç duyulabilecek geniş çaplı işlemleri
+hizmetinize sunar ve PHP de yazılmış özel işlemler ile geliştirilebilir.
 
 [Capistrano](https://github.com/capistrano/capistrano/wiki) is a system for *intermediate-to-advanced programmers* to 
 execute commands in a structured, repeatable way on one or more remote machines. It is pre-configured for deploying 
